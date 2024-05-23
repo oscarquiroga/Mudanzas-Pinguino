@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: none;
+}
+body{
+    background-image: url(../img/IMG-4496.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.p2{
+    background-color: white;
+    color: black;
+    overflow: hidden;
+}
+.p2 p {
+    font-size: 25px;
+    font-weight: 500;
+}
+.Parfp2{
+    padding: 25px;
+}
+.p2D{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.p2-circl{
+    border: 5px solid #e17833;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.p2-cont{
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+    font-weight: bold;
+}
+.p2D img{
+    background-color: #e17833;
+    border-radius: 5px;
+}
+.conts1{
+    text-transform: uppercase;
+}
+.cont2{
+    margin-left: 3%;
+}
+.cont2 li{
+    padding-bottom: 3%;
+}
